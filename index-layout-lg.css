@@ -1,0 +1,40 @@
+@media (max-width: 320px) 
+{ section {float: none;  } }
+
+body {
+    background-image: url(green_grass.jpg);
+    max-width: 1500px;
+    margin: 0 auto;
+}
+header {
+    text-align: center;
+    height: 300px;
+    font-style: inherit;
+}
+footer {
+    color: white;
+    height: 25px;
+    font-size: medium;
+    text-align: center;
+}
+section #about_me{
+    
+    background-color: #D3D3D3;
+    border-style: ridge;
+    border-width: 10px;
+    height: 500px;
+}
+
+section #my_skills {
+    background-color: #D3D3D3;
+    border-style: ridge;
+    border-width: 10px;
+    height: 500px;
+}
+
+section #contact_me {
+    background-color: #D3D3D3;
+    border-style: ridge;
+    border-width: 10px;
+    height: 500px;
+}
