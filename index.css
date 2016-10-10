@@ -13,7 +13,7 @@ a:active, a:visited{
 header {
     background-image: url(mountain.jpg);
     text-align: center;
-    height: 300px;
+    height: auto;
     font-style: inherit;
     }
     
@@ -34,7 +34,8 @@ section {
     background-color: #D3D3D3;
     border-style: ridge;
     border-width: 10px;
-    height: 500px;
+    height: 100%;
+    
     } 
 
 img {
@@ -64,3 +65,8 @@ h1 {
 figure {
     text-align: center;
     }
+div img {
+    width: 350px;
+    height: 370px;
+}
+
