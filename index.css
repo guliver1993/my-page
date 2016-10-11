@@ -1,5 +1,5 @@
 a:link {
-    color: white;
+    color:black;
     padding: 14px 25px;
     text-align: center; 
     text-decoration: none;
@@ -7,7 +7,7 @@ a:link {
     }
 
 a:active, a:visited{
-    color: white;
+    color: black;
     }
 
 header {
@@ -51,7 +51,7 @@ p {
     }
 
 form {
-    font-size: x-large;
+    font-size: large;
     text-align-last: center;
     float: left;
     }
@@ -65,8 +65,17 @@ h1 {
 figure {
     text-align: center;
     }
-div img {
+div #img {
     width: 350px;
     height: 370px;
 }
-
+footer {
+    color: white;
+    height: 25px;
+    font-size: medium;
+    text-align: center;
+}
+div #text{
+    width: 750px;
+    height: 500px;
+}
