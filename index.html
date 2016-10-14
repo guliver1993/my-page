@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Vasyl Paliukha</title>
-    <link rel="stylesheet" href="index.css" type="text/css" />
-    <link rel="stylesheet" media="(min-width: 521px)" href="index-layout-lg.css">
-    <link rel="stylesheet" media="(max-width: 520px)" href="index-layout-sm.css">
+    <link rel="stylesheet" href="css/index.css" type="text/css" />
+    <link rel="stylesheet" media="(min-width: 521px)" href="css/index-layout-lg.css">
+    <link rel="stylesheet" media="(max-width: 520px)" href="css/index-layout-sm.css">
 </head>
 <body>
     <header>
@@ -19,6 +19,7 @@
         <a class="menu" href="#index">Home</a>
         <a class="menu" href="#about_me">About Me</a>
         <a class="menu" href="#my_skills">My skills</a>
+        <a class="menu" href="#to_order">To order</a>
         <a class="menu" href="#contact_me">Contact Me</a>
     </nav>
     </header>
@@ -28,14 +29,24 @@
         <p><a name="about_me">About Me</a></p>
     </article>
     
-    <section id="about_me">
-        <div id="img"><img src="me.jpg" alt="me"></div>
-            <div id="text">
-            <p>I am 23 years old. live in the city of Gorodok of Lviv region.</p>
-            <p>In 2009 I enrolled at the Natural College of the Lviv national University named Ivan Franko, and received a diploma of Junior specialist technician-electronics.</p>
-            <p>In 2012 I transferred into 3rd year of the Faculty of electronics, Lviv national University named Ivan Franko, graduated, got a degree in "Specialist of physical and biomedical electronics".</p>
-            <p>Among the personal qualities I can highlight the ability to communicate with people, sociable, responsible, punctuality, accuracy, absence of bad habits, fast learner, polite.</p>
-            <p>Currently working in my hometown at OOO "Bader Ukraine"</p>
+    <section>
+        <div id="img"><img src="image/me.jpg" alt="me" style="margin-right:10px;margin-left:10px;"></div>
+            <div id="text" >
+            <p>
+            I am 23 years old. live in the city of Gorodok of Lviv region.
+            <br>
+            <br>
+            In 2009 I enrolled at the Natural College of the Lviv national University named Ivan Franko, and received a diploma of Junior specialist technician-electronics.
+            <br>
+            <br>
+            In 2012 I transferred into 3rd year of the Faculty of electronics, Lviv national University named Ivan Franko, graduated, got a degree in "Specialist of physical and biomedical electronics".
+            <br>
+            <br>
+            Among the personal qualities I can highlight the ability to communicate with people, sociable, responsible, punctuality, accuracy, absence of bad habits, fast learner, polite.
+            <br>
+            <br>
+            Currently working in my hometown at OOO "Bader Ukraine"
+            </p>
             </div>
     </section>
     
@@ -44,8 +55,8 @@
         <p><a name="my_skills">My Skills</a></p>
     </article>
     
-    <section id="my_skills"><p>
-        <p>
+    <section><p>
+        <p style="margin-left:10px;">
            Professional skills – skills in the use of PC, office programs, 
            there are professional skills in the use of soldering stations, 
            experience in using measuring instruments (ammeters, oscilloscopes, voltmeters, multimeters).
@@ -59,16 +70,37 @@
     </p>
     
     <article>
+        <p><a name="to_order">To order</a></p>
+    </article>
+    
+    <section style="padding-bottom:350px;">
+        <p style="margin-left:10px;">If You have any problems with Your computer/laptop, please fill in this form:</p>
+        <form action="https://formspree.io/vasil.palukha@gmail.com" method="POST" style="margin-left:10px;">
+            <label for="name">Your name:</label><br>
+            <input type="text" name="name" id="name" size="70" required><br>
+            <label for="number">Your phone number:</label><br>
+            <input type="text" name="numer" id="number" size="70" required><br>
+            <label><input type="checkbox" name="IT" value="PC">Computer</label>
+            <label><input type="checkbox" name="IT" value="laptop">Laptop</label><br>
+            <br>
+            <label for="comments">Describe damage to Your device:</label><br>
+            <textarea name="comments" id="comments" rows="9" cols="66">
+            </textarea><br>
+            <input type="submit" name="submit">
+        </form>
+    </section>
+    
+    <article>
         <p><a name="contact_me">Contact Me</a></p>
     </article>
     
-    <section id="contact_me">
-        <form action="https://formspree.io/vasil.palukha@gmail.com" method="POST">
+    <section>
+        <form action="https://formspree.io/vasil.palukha@gmail.com" method="POST" style="margin-left:10px;">
         <label for="name">Your name:</label><br>
-        <input type="text" name="name" id="name" size="65" required><br>
+        <input type="text" name="name" id="name" size="70" required><br>
       
         <label for="email">Your email:</label><br>
-        <input type="email" name="email" id="email" size="65" required><br>
+        <input type="email" name="email" id="email" size="70" required><br>
         
         <label for="comments">Your comments:</label><br>
         <textarea name="comments" id="comments" rows="9" cols="66">
@@ -86,9 +118,9 @@
         
         <h2>My links:</h2>
             <figure>
-            <a href="https://www.facebook.com/profile.php?id=100009519504347" alt="Facebook"><img src="facebook.png" alt="facebook" widht="80px" height="80px"></a>
-            <a href="https://plus.google.com/u/0/107198271850230570957" alt="Google+"><img src="Google+.png" alt="Google+" widht="80px" height="80px"></a>
-            <a href="https://vk.com/guliver1993" alt="Vk"><img src="vk.png" alt="vk" widht="80px" height="80px"></a>
+            <a href="https://www.facebook.com/profile.php?id=100009519504347" alt="Facebook"><img src="image/facebook.png" alt="facebook" widht="80px" height="80px"></a>
+            <a href="https://plus.google.com/u/0/107198271850230570957" alt="Google+"><img src="image/Google+.png" alt="Google+" widht="80px" height="80px"></a>
+            <a href="https://vk.com/guliver1993" alt="Vk"><img src="image/vk.png" alt="vk" widht="80px" height="80px"></a>
         </figure>
     
     </section>
@@ -98,6 +130,6 @@
     </footer>
     
      <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="form.js"></script>
+    <script type="text/javascript" src="js/form.js"></script>
 </body>
 </html>

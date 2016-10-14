@@ -10,8 +10,12 @@ a:active, a:visited{
     color: black;
     }
 
+a:hover {
+     background-color: lightgreen;
+}    
+
 header {
-    background-image: url(mountain.jpg);
+    background-image: url(/image/mountain.jpg);
     text-align: center;
     height: auto;
     font-style: inherit;
@@ -68,15 +72,11 @@ figure {
     }
 div img {
     width: 350px;
-    height: 370px;
+    height: 385px;
 }
 footer {
     color: white;
     height: 25px;
     font-size: medium;
     text-align: center;
-}
-div #text{
-    width: 750px;
-    height: 500px;
 }
