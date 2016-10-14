@@ -10,19 +10,17 @@ a:active, a:visited{
     color: black;
     }
 
- a:hover {
-     background-color: lightgreen;
-}    
+ 
 
 header {
-    background-image: url(mountain.jpg);
+    background-image: url(/image/mountain.jpg);
     text-align: center;
     height: auto;
     font-style: inherit;
     }
     
 nav {
-    background-color:white;
+    
     font-size: x-large;
     text-align: center;
     margin: 0 auto;
