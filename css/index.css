@@ -13,7 +13,7 @@ a:active, a:visited{
  
 
 header {
-    background-image: url(mountain.jpg);
+    background-image: url(/image/mountain.jpg);
     text-align: center;
     height: auto;
     font-style: inherit;
