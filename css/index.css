@@ -6,12 +6,6 @@ a:link {
     display: inline-block;
     
     }
-.nav_menu {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: row;
-    justify-content:center;
-}
 
 a:active, a:visited{
     color: black;
