@@ -7,27 +7,28 @@
     <link rel="stylesheet" href="css/index.css" type="text/css">
     <link rel="stylesheet" media="(min-width: 521px)" href="css/index-layout-lg.css">
     <link rel="stylesheet" media="(max-width: 520px)" href="css/index-layout-sm.css">
+    <link rel="stylesheet" href="css/scrollup.css" type="text/css">
 </head>
 <body>
     <header>
-        <a name="index"><h1>Hi, my name is Vasyl Paliukha.</h1></a>
+        <a class="smooth" name="index"><h1>Hi, my name is Vasyl Paliukha.</h1></a>
             
             <p>If you have a failed computer or laptop You can contact me with the question of repairs. 
             <br> Also soon I will be able to create full-fledged web sites. 
             That's why I signed up to learn HTML5, CSS3, Javascript</p>
     
     <nav>
-            <a class="menu" href="#index">Home</a>
-            <a class="menu" href="#about_me">About Me</a>
-            <a class="menu" href="#my_skills">My skills</a>
-            <a class="menu" href="#to_order">To order</a>
-            <a class="menu" href="#contact_me">Contact Me</a>
+            <a class="smooth" href="#index">Home</a>
+            <a class="smooth" href="#about_me">About Me</a>
+            <a class="smooth" href="#my_skills">My skills</a>
+            <a class="smooth" href="#to_order">To order</a>
+            <a class="smooth" href="#contact_me">Contact Me</a>
     </nav>
     </header>
     
     
     <article>
-        <p><a name="about_me">About Me</a></p>
+        <p><a class="smooth" id="about_me">About Me</a></p>
     </article>
     
     <section>
@@ -53,7 +54,7 @@
     
     
     <article>
-        <p><a name="my_skills">My Skills</a></p>
+        <p><a class="smooth" id="my_skills">My Skills</a></p>
     </article>
     
     <section><p>
@@ -71,40 +72,40 @@
     </p>
     
     <article>
-        <p><a name="to_order">To order</a></p>
+        <p><a class="smooth" id="to_order">To order</a></p>
     </article>
     
     <section style="padding-bottom:350px;">
         <p style="margin-left:10px;">If You have any problems with Your or do You want to order computer/laptop, please fill in this form:</p>
         <form action="https://formspree.io/vasil.palukha@gmail.com" method="POST" style="margin-left:10px;">
             <label for="name">Your name:</label><br>
-            <input type="text" name="name" id="name" size="70" required><br>
+            <input type="text" name="name" id="name" size="62" required><br>
             <label for="number">Your phone number:</label><br>
-            <input type="text" name="numer" id="number" size="70" required><br>
+            <input type="text" name="numer" id="number" size="62" required><br>
             <label><input type="checkbox" name="IT" value="PC">Computer</label>
             <label><input type="checkbox" name="IT" value="laptop">Laptop</label><br>
             <br>
             <label for="comments">Describe damage to Your device/describe the characteristics of the desired computer/laptop:</label><br>
-            <textarea name="comments" id="comments" rows="9" cols="66">
+            <textarea name="comments" id="comments" rows="9" cols="63">
             </textarea><br>
             <input type="submit" name="submit">
         </form>
     </section>
     
     <article>
-        <p><a name="contact_me">Contact Me</a></p>
+        <p><a class="smooth" id="contact_me">Contact Me</a></p>
     </article>
     
     <section>
         <form action="https://formspree.io/vasil.palukha@gmail.com" method="POST" style="margin-left:10px;">
         <label for="name">Your name:</label><br>
-        <input type="text" name="name" id="name" size="70" required><br>
+        <input type="text" name="name" id="name" size="62" required><br>
       
         <label for="email">Your email:</label><br>
-        <input type="email" name="email" id="email" size="70" required><br>
+        <input type="email" name="email" id="email" size="62" required><br>
         
         <label for="comments">Your comments:</label><br>
-        <textarea name="comments" id="comments" rows="9" cols="66">
+        <textarea name="comments" id="comments" rows="9" cols="63">
         </textarea><br>
         <input type="submit" name="submit">
         </form>
@@ -129,8 +130,13 @@
     <footer>
         <p>All rights reserved 2016</p>
     </footer>
-    
+    <div id="scrollup">
+	    <img src="image/up.png" class="up" alt="scrollup" style="width: 50px;height: 50px;">
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/form.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <script type="text/javascript" src="js/scrollup.js"></script>
 </body>
 </html>
